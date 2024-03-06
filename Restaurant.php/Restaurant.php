@@ -11,4 +11,8 @@ class Restaurant{
         $this->menu = $menu;
         $this->employees = $employees;
     }
+
+    public function order(array $categories) : string {
+
+    }
 }
