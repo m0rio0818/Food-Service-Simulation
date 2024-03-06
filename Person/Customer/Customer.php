@@ -3,7 +3,7 @@
 namespace Person;
 
 use Restaurant\Restaurant;
-
+use Invoice\Invoice;
 
 class Customer extends Person{
     public function __construct(string $name, int $age, string $address) {
@@ -11,11 +11,11 @@ class Customer extends Person{
     }
 
 
-    public function interestedCategories(Restaurant $restraunt) : void {
+    public function interestedCategories(Restaurant $restraunt) : array {
 
     }
 
-    public function order(Restaurant $restaurant, array $category) : void {
+    public function order(Restaurant $restaurant, array $category) : Invoice {
         
     }
 }
