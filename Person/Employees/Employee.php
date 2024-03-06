@@ -4,8 +4,8 @@ namespace Person;
 
 class Employee extends Person
 {
-    private int $employeeId;
-    private float $salary;
+    protected int $employeeId;
+    protected float $salary;
 
     public function __construct(string $name, int $age, string $address, int $employeeId, float $salary)
     {

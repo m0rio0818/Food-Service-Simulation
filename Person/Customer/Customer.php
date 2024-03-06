@@ -12,6 +12,7 @@ class Customer extends Person{
 
 
     public function interestedCategories(Restaurant $restraunt) : array {
+        $orderrCategories = [];
 
     }
 
